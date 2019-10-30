@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" style="-fx-background-color: #0088CC;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diploma.profileMVC.ProfileController">
+    <GridPane layoutX="14.0" layoutY="14.0" style="-fx-background-color: #0088CC;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Label text="Прізвище" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Ім'я" textFill="WHITE" GridPane.rowIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="По-батькові" textFill="WHITE" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Варіант ЮРА" textFill="WHITE" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Стать" textFill="WHITE" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Вік на поч захв" textFill="WHITE" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Через який час поставлений діагноз" textFill="WHITE" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Ранк сков в дитинстві" textFill="WHITE" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Артрит &gt;3 сугл в дитинстві" textFill="WHITE" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Артрит сугл кистей в дитинстві" textFill="WHITE" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Симетр артрит в дитинстві" textFill="WHITE" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Рентген в дитинстві" textFill="WHITE" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Ентезит в дитинстві" textFill="WHITE" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Дактиліти в дитинстві" textFill="WHITE" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Сакроїлеїт в дитинстві" textFill="WHITE" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Біль в хребті в дитинстві" textFill="WHITE" GridPane.rowIndex="15">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Лімфаденопатія, спленомегалія в дитинстві" textFill="WHITE" GridPane.rowIndex="16">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Висипка в дитинстві" textFill="WHITE" GridPane.rowIndex="17">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Гарячка в дитинстві" textFill="WHITE" GridPane.rowIndex="18">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <TextField fx:id="surnameField" GridPane.columnIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField fx:id="firstnameField" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField fx:id="middlenameField" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <ChoiceBox fx:id="uraBox" prefHeight="25.0" prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="x101Box" />
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="x102Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="x103Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="8" fx:id="x1Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="9" fx:id="x2Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="10" fx:id="x104Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="11" fx:id="x105Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="12" fx:id="x106Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="13" fx:id="x107Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="14" fx:id="x3Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="15" fx:id="x108Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="16" fx:id="x109Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="17" fx:id="x4Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="18" fx:id="x110Box" />
+    </GridPane>
+    <GridPane layoutX="500.0" layoutY="14.0" style="-fx-background-color: #0088CC;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Label text="Увеїт в дитинстві" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Біль в шийн відд в дитинстві" textFill="WHITE" GridPane.rowIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Гепатомег в дитинстві" textFill="WHITE" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="HLA-B27 у дитячому віці" textFill="WHITE" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="РФ дебют" textFill="WHITE" GridPane.rowIndex="4">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="А-ЦЦП дебют хв" textFill="WHITE" GridPane.rowIndex="5">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="ANA" textFill="WHITE" GridPane.rowIndex="6">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Імунологічна група: HLAB27" textFill="WHITE" GridPane.rowIndex="7">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Імунологічна група: ANA" textFill="WHITE" GridPane.rowIndex="8">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Імунологічна група: ACCP/RF" textFill="WHITE" GridPane.rowIndex="9">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="ШОЕ дебют" textFill="WHITE" GridPane.rowIndex="10">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="СРП дебют" textFill="WHITE" GridPane.rowIndex="11">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="ВАШ дит-пац" textFill="WHITE" GridPane.rowIndex="12">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="JADAS Дит" textFill="WHITE" GridPane.rowIndex="13">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Холестерин" textFill="WHITE" GridPane.rowIndex="14">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Глюкоза" textFill="WHITE" GridPane.rowIndex="15">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Віт Д до лікув" textFill="WHITE" GridPane.rowIndex="16">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <Label text="Кальцій заг" textFill="WHITE" GridPane.rowIndex="17">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" fx:id="x111Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="x112Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="x113Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="x114Box" />
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="x115Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="x5Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="x116Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="x117Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="8" fx:id="x118Box" />
+        <ChoiceBox prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="9" fx:id="x119Box" />
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="10" fx:id="x120Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="11" fx:id="x121Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="12" fx:id="x122Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="13" fx:id="x123Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="14" fx:id="x124Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="15" fx:id="x125Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="16" fx:id="x126Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="17" fx:id="x127Field">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+    </GridPane>
+    <Label layoutX="-28.0" layoutY="179.0" text="Label" />
+    <Button fx:id="backBtn" layoutX="652.0" layoutY="606.0" mnemonicParsing="false" onAction="#backToMenu" text="Повернутися до головного меню">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+    <Button layoutX="664.0" layoutY="576.0" mnemonicParsing="false" onAction="#addToDB" text="Додати пацієнта в базу даних">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+</AnchorPane>

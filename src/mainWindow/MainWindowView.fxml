@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #0088CC;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diploma.mainWindow.MainWindowController">
+    <Button fx:id="addBtn" layoutX="37.0" layoutY="45.0" mnemonicParsing="false" onAction="#addNewPatient" prefHeight="49.0" prefWidth="227.0" text="Додати нового пацієнта">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+    <Button fx:id="predBtn" layoutX="37.0" layoutY="180.0" mnemonicParsing="false" onAction="#predictTreatment" prefHeight="49.0" prefWidth="227.0" text="Спрогнозувати лікування">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+</AnchorPane>
