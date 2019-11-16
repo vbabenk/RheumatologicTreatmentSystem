@@ -7,6 +7,7 @@ The task was to build an algorithm for finding treatment strategy to avoid artic
 
 ### Group method of data handling (GMDH)
 - GMDH was used for building classification models. 
+- Models were built in <a href="https://gmdhsoftware.com/docs/">**GMDH Shell DS**</a> software.
 - Data sample was divided into training (<b>85%</b>) and test (<b>15%</b>) samples.
 - Classication models were built for 3 groups of patients.
 - In total, <b>6 models</b> were built.
