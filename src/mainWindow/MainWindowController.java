@@ -1,3 +1,7 @@
+// Copyright © 2019. All rights reserved.
+// Authors: Vitalii Babenko
+// Contacts: vbabenko2191@gmail.com
+
 package diploma.mainWindow;
 
 import javafx.fxml.FXML;
