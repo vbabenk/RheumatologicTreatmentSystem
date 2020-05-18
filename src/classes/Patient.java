@@ -1,5 +1,5 @@
 // Copyright © 2019. All rights reserved.
-// Authors: Vitalii Babenko, Anastasiia Dydyk
+// Authors: Vitalii Babenko
 // Contacts: vbabenko2191@gmail.com
 
 package diploma.classes;
